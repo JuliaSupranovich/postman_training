@@ -252,7 +252,10 @@
 											"pm.test(\"Category name update\", function () {",
 											"    var jsonData = pm.response.json().category;",
 											"    pm.expect(jsonData.name).to.eql(pm.collectionVariables.get(\"UpdatedName\"));",
-											"});"
+											"});",
+											"",
+											"//updates",
+											"//conflict"
 										],
 										"type": "text/javascript",
 										"packages": {},
